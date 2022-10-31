@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>awsomeflick: Event</title>
+
+<!-- =========================
+     STYLESHEETS
+============================== -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link href="css/slick.css" type="text/css" rel="stylesheet" /> <!-- slick slider -->
+<link rel="stylesheet" href="css/animate.min.css"> <!-- animation -->
+<link href="css/jquery.fancybox.css" type="text/css" rel="stylesheet" />
+<link href="css/jquery.fancybox-buttons.css" type="text/css" rel="stylesheet" /> 
+<link rel="stylesheet" href="css/style.css">
+
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie.css" />
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+<![endif]-->
+
+<!-- JQUERY -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.js"></script>
+
+</head>
+
+<body>
+
+
+<!--swipe menu-->
+<div class="swipe collapse">
+	<div class="swipe-menu">
+		<ul>
+			<li >
+				<a class="page-scroll" href="index.html">Home</a>
+			</li>
+			<li class="parent">
+				<a class="page-scroll" href="javascript:void(0);">
+					About Us
+					<!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+				</a>
+				<!-- <ul>
+					<li><a href="aboutus.html">About Us Page</a></li>
+	    		</ul> -->
+			</li>
+			<li class="active">
+				<a class="page-scroll" href="#event">Event</a>
+			</li>
+			<li>
+				 <a class="page-scroll" href="#gallery">Gallery</a>
+			</li>
+			<li>
+				<a class="page-scroll" href="#testimonials">Client</a>
+			</li>
+			<li>
+				<a class="page-scroll" href="#contact">Contact Us</a>
+			</li>
+			<!-- <li class="parent">
+				<a href="javascript:void(0);">
+					Submenu
+					<i class="fa fa-caret-down" aria-hidden="true"></i>
+				</a>
+				<ul>
+					<li><a href="">Submenu 1</a>
+	    			</li>
+	    			<li><a href="">Submenu 2</a>
+	    			</li>
+	    			<li><a href="">Submenu 3</a>
+	    			</li>
+	    		</ul>
+			</li> -->
+	    </ul> 	   
+	</div>	
+</div>
+<!--complete swipe menu-->
+<!-- <div id="qLoverlay"></div> -->
+
+
+<header>
+	<!--complete swipe-control btn-->
+    <div class="mobile-header">
+    	<div class="mobile-logo wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="100ms">
+    		<a href="index.html">
+    			<img src="images/logo.png" alt="mobile logo">
+    		</a>
+    	</div>
+    	<button type="button" class="navbar-toggle swipe-control wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="110ms"></button>
+    </div>
+	<!--complete swipe-control btn-->
+	<!-- Navigation -->
+	<div class="header-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+					<div class="logo wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="100ms">
+						<a href="index.html"><img src="images/logo.png" alt="logo image"></a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-9 col-md-8 col-lg-8">
+				    <div class="main-menu wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="110ms">
+				    	<ul class="main-menu-navbar">
+		                    <li>
+		                        <a class="page-scroll" href="index.html">Home</a>
+		                    </li>
+		                    <li class="parent">
+		                        <a class="page-scroll" href="#about">
+		                        	About Us
+		                        	<!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+		                        </a>
+		                        <!-- <ul>
+									<li><a href="aboutus.html">About Us Page</a></li>
+					    		</ul> -->
+		                    </li>
+		                    <li class="active">
+		                        <a class="page-scroll" href="#event">Event</a>
+		                    </li>
+		                    <li>
+		                        <a class="page-scroll" href="#gallery">Gallery</a>
+		                    </li>
+		                    <li>
+		                        <a class="page-scroll" href="#testimonials">Client</a>
+		                    </li>
+		                    <li>
+		                    	<a class="page-scroll" href="#contact">Contact Us</a>
+		                    </li>
+		                    <!-- <li class="parent">
+								<a href="javascript:void(0);">
+									Submenu 
+									<i class="fa fa-caret-down" aria-hidden="true"></i>
+								</a>
+								<ul>
+									<li><a href="">Submenu 1</a>
+					    			</li>
+					    			<li><a href="">Submenu 2</a>
+					    			</li>
+					    			<li><a href="">Submenu 3</a>
+					    			</li>
+					    		</ul>
+							</li> -->
+		                </ul>
+				    </div>
+		    	</div>
+		    </div>
+	    </div>
+    </div>
+</header>
+
+
+
+<div class="content">
+	<div class="inner-pager-heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+		<div class="inner-heading-overlay">
+			<div class="inner-heading">
+				<h2 class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Event</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="event-form-wrapper">
+					<div class="inner-site-heading">
+						<div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+							<h3>BOOK YOUR EVENT </h3>
+							<span></span>
+						</div>
+					</div>
+ 					
+					<div class="event-form-inner wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<form class="form-horizontal" action="" method="post" onsubmit="return validateForm(this,'ajax','error1')">
+
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 form-col form-col-left">
+								<div class="row">
+									<div class="form-group">
+									    <div class="col-sm-3 user-left">
+									      <span class="form-name">First Name:</span>
+									    </div>
+									    <div class="col-sm-9 input-padding">
+									      <input type="text" class="form-control validate form-control-right" name="fname">
+									    </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 form-col form-col-right">
+								<div class="row">
+									<div class="form-group">
+									    <div class="col-sm-3 user-left">
+									      <span class="form-name">Last Name:</span>
+									    </div>
+									    <div class="col-sm-9 input-padding">
+									      <input type="text" class="form-control validate form-control-right" name="lname">
+									    </div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 form-col form-col-left ">
+								<div class="row">
+									<div class="form-group">
+									    <div class="col-sm-3 user-left">
+									      <span class="form-name">Email Id:</span>
+									    </div>
+									    <div class="col-sm-9 input-padding">
+									      <input type="text" class="form-control validate form-control-right" name="email">
+									    </div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 form-col form-col-right">
+								<div class="row">
+									<div class="form-group">
+									    <div class="col-sm-3 user-left">
+									      <span class="form-name">Mobile No:</span>
+									    </div>
+									    <div class="col-sm-9 input-padding">
+									      <input type="text" class="form-control validate form-control-right" name="mobile">
+									    </div>
+									</div> 
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 form-col form-col-left">
+								<div class="row">
+									<div class="form-group">
+									    <div class="col-sm-3 user-left">
+									      <span class="form-name">Occation Type:</span>
+									    </div>
+									    <div class="col-sm-9 input-padding">
+									      <select class="change-dropdown">
+								              <option>Select Occation</option>
+								              <option>Occation 1</option>
+								              <option>Occation 2</option>
+								              <option>Occation 3</option>
+								            </select>
+									    </div>
+									</div>
+								</div>
+							</div> 
+
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 form-col form-col-right">
+								<div class="row">
+									<div class="form-group">
+									    <div class="col-sm-3 user-left">
+									      <span class="form-name">Occation Date:</span>
+									    </div>
+									    <div class="col-sm-9 input-padding">
+									      	<!-- <input type="text" id="datepicker"> -->
+									      	<span class="calender-form">
+									      		<label for="from">From</label>
+												<input type="text" id="from" name="from">
+									      	</span>
+									      	<span class="calender-form"> 
+									      		<label for="to">to</label>
+												<input type="text" id="to" name="to">
+									      	</span>
+									    </div>
+									</div> 
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 form-col form-col-left">
+								<div class="row">
+									<div class="form-group">
+									    <div class="col-sm-3 user-left">
+									      <span class="form-name">Occation Time:</span>
+									    </div>
+									    <div class="col-sm-9 input-padding">
+									      <select class="change-dropdown">
+								              <option>Select Time</option>
+								              <option>Full day</option>
+								              <option>7:00AM to 11:59AM</option>
+								              <option>12:00PM to 5:00PM</option>
+								              <option>6:00PM to 11:59PM</option>
+								            </select>
+									    </div>
+									</div>
+								</div>
+							</div> 
+
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 form-col form-col-right">
+								<div class="row">
+									<div class="form-group">
+									    <div class="col-sm-3 user-left">
+									      <span class="form-name">Budget:</span>
+									    </div>
+									    <div class="col-sm-6 input-padding">
+									      <input type="text" class="form-control validate form-control-right" name="budget">
+									    </div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 form-col form-col-left">
+								<div class="row">
+									<div class="form-group">
+									    <div class="col-sm-3 user-left">
+									      <span class="form-name">Description:</span>
+									    </div>
+									    <div class="col-sm-9 input-padding">
+									      <textarea class="form-control validate form-control-right message" name="message"></textarea>  
+									    </div>
+									</div> 
+								</div>
+							</div> 
+							  
+							<div class="col-xs-12 ">
+								<div class="row">
+									<div class="form-group">
+										<div class="col-xs-12">
+											<div class="event-submit-button">
+												<button type="reset" class="btn btn-submit custome-button">RESET</button>
+												<button type="submit" class="btn btn-submit custome-button">SUBMIT</button> 
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- .....content part end............. -->
+</div>
+
+<!--......... footer part start ............-->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="copy-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<p>awsomeflick &copy; 2016 All Right Resurved</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="socal-wrapper">
+					<div class="socal wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<ul>
+							<li>
+								<h4>Follow us:</h4>
+							</li>
+							<li>
+								<a href="">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<i class="fa fa-skype" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="power-by wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="700ms">
+					Powered By:<a href="">RNJ Consultancy Servicee Pvt. Ltd</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!--......... footer part end ..............-->
+
+
+<div class="visible-desktop"><!--back to top-->
+    <p id="back-top">
+        <a href=""><i class="back-top-icon"></i></a>
+    </p>
+</div>
+<!-- click scroll top end -->
+
+
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script> <!-- parallax need -->
+<script src="js/jquery.easing.min.js"></script> <!-- parallax need -->
+<script src="js/start.js"></script> <!-- parallax need -->
+<script defer type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script defer type="text/javascript" src="js/slick.js"></script>   <!-- slick slider -->
+<script type="text/javascript" src="js/echo.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/validateform.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script> 
+<script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script> <!-- smooth scroll -->
+<script type="text/javascript" src="js/jquery.simplr.smoothscroll.min.js"></script> <!-- smooth scroll -->
+<script src="js/wow.min.js"></script><!-- animation -->
+<script type="text/javascript" src="js/custom.js"></script>
+<!--[if gt IE 8]><!-->
+<script>
+	new WOW().init(); 
+
+	$(function () {
+		  $.srSmoothscroll({
+		    step: 55,
+		    speed: 1000,
+		    ease: 'swing',
+		    target: $('body'),
+		    container: $(window)
+		  })
+		})
+</script>
+<!--<![endif]-->
+ 
+
+<script>
+  $( function() {
+    var dateFormat = "mm/dd/yy",
+      from = $( "#from" )
+        .datepicker({
+          defaultDate: "+1w",
+          changeMonth: true,
+          numberOfMonths: 1
+        })
+        .on( "change", function() {
+          to.datepicker( "option", "minDate", getDate( this ) );
+        }),
+      to = $( "#to" ).datepicker({
+        defaultDate: "+1w",
+        changeMonth: true,
+        numberOfMonths: 1
+      })
+      .on( "change", function() {
+        from.datepicker( "option", "maxDate", getDate( this ) );
+      });
+ 
+    function getDate( element ) {
+      var date;
+      try {
+        date = $.datepicker.parseDate( dateFormat, element.value );
+      } catch( error ) {
+        date = null;
+      }
+ 
+      return date;
+    }
+  } );
+</script>
+
+</body>
+</html>
